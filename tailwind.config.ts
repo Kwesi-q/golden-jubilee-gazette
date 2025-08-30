@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -52,6 +53,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				anniversary: {
+					gold: 'hsl(var(--anniversary-gold))',
+					'gold-light': 'hsl(var(--anniversary-gold-light))'
+				},
+				heritage: {
+					green: 'hsl(var(--heritage-green))',
+					'green-light': 'hsl(var(--heritage-green-light))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +71,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-golden': 'var(--gradient-golden)',
+				'gradient-heritage': 'var(--gradient-heritage)',
+				'gradient-celebration': 'var(--gradient-celebration)'
+			},
+			boxShadow: {
+				'golden': 'var(--shadow-golden)',
+				'elegant': 'var(--shadow-elegant)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
